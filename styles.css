@@ -378,7 +378,7 @@ body {
     }
 
     .header-text h1 {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .section-header h2 {
@@ -390,11 +390,11 @@ body {
     }
 
     .product-name {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .product-subname {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .product-image {
