@@ -378,7 +378,7 @@ body {
     }
 
     .header-text h1 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .section-header h2 {
@@ -412,6 +412,11 @@ body {
 
     .add-to-cart-btn span {
         display: none;
+    }
+    
+    .header-right .logo-rectangle img {
+        width: 100px;
+        height: 30px;
     }
 }
 
