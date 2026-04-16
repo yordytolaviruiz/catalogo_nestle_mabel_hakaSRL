@@ -42,7 +42,7 @@ body {
 }
 
 .header-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: -0.025em;
 }
@@ -170,7 +170,7 @@ body {
 }
 
 .section-header h2 {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: #1f2937;
     margin-bottom: 0.5rem;
@@ -184,7 +184,7 @@ body {
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1.5rem;
+    gap: 1.0rem;
 }
 
 /* Product Card */
@@ -202,7 +202,7 @@ body {
 
 .product-image {
     position: relative;
-    height: 12rem;
+    height: 10rem;
     overflow: hidden;
     background: #f3f4f6;
 }
@@ -245,23 +245,24 @@ body {
 }
 
 .product-name {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #1f2937;
     min-height: 1.5rem;
 }
 
 .product-subname {
-    font-size: 0.900rem;
+    font-size: 0.8rem;
     color: #6b7280;
     min-height: 3rem;
 }
 
 .product-detalle p {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     color: #2d36e8;
     min-height: 2rem;
 }
+
 .product-stock {
     display: flex;
     align-items: center;
@@ -278,13 +279,14 @@ body {
 }
 
 .product-inactivo {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: #dc2626;
 }
+
 .product-activo {
     color: rgb(14, 170, 37);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -370,23 +372,44 @@ body {
     .desktop-only {
         display: none;
     }
-    
+
     .mobile-only {
         display: block;
     }
-    
+
     .header-text h1 {
-        font-size: 1.125rem;
+        font-size: 1rem;
     }
-    
+
     .section-header h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
-    
+
     .products-grid {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
     }
-    
+
+    .product-name {
+        font-size: 1rem;
+    }
+
+    .product-subname {
+        font-size: 0.8rem;
+    }
+
+    .product-image {
+        height: 8rem;
+    }
+
+    .product-detalle p {
+        font-size: 0.40rem;
+    }
+
+    .product-activo,
+    .product-inactivo {
+        font-size: 1.0rem;
+    }
+
     .add-to-cart-btn span {
         display: none;
     }
@@ -394,9 +417,10 @@ body {
 
 @media (min-width: 769px) {
     .header-text h1 {
-        font-size: 1.875rem;
+        font-size: 1.5rem;
     }
 }
+
 /*agregar el logo auntomatoco al curculo del logo*/
 /* Logo circular */
 .logo-circule {
@@ -404,19 +428,22 @@ body {
     height: 60px;
     border-radius: 50%;
     overflow: hidden;
-    display: inline-block; /* Para mejor alineación */
+    display: inline-block;
+    /* Para mejor alineación */
 }
 
 .logo-circule img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Llena el círculo */
+    object-fit: cover;
+    /* Llena el círculo */
 }
 
 /* Logo rectangular con bordes curveados */
 .logo-rectangle {
     width: fit-content;
-    border-radius: 30px; /* Para puntas curveadas */
+    border-radius: 30px;
+    /* Para puntas curveadas */
     overflow: hidden;
     display: inline-block;
 }
@@ -425,5 +452,6 @@ body {
     width: 150px;
     height: 45px;
     object-fit: contain;
-    border-radius: 30px; /* Mismo valor que el contenedor */
+    border-radius: 30px;
+    /* Mismo valor que el contenedor */
 }
