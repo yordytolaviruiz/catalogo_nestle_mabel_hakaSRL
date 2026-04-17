@@ -418,6 +418,33 @@ body {
         width: 100px;
         height: 30px;
     }
+    /*footer responsive*/
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-col h3 {
+        font-size: 0.5rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-col p {
+        color: #9ca3af;
+        font-size: 0.46rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #374151;
+        padding-top: 0.6rem;
+        text-align: center;
+        color: #9ca3af;
+        font-size: 0.5rem;
+    }
 }
 
 @media (min-width: 769px) {
