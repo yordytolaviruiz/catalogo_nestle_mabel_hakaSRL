@@ -445,6 +445,10 @@ body {
         color: #9ca3af;
         font-size: 0.5rem;
     }
+    .footer {
+        margin-top: 2rem;
+        padding: 1rem 0;
+    }
 }
 
 @media (min-width: 769px) {
